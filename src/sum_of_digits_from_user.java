@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class sum_of_digits_from_user {
     public static void main(String[] args) {
-        int n, r, s = 0;
+        int n, r, s=0;
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter any Number: ");
         n= obj.nextInt();
