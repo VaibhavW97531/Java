@@ -5,10 +5,10 @@ public class addition_of_digits {
     public static void main(String[] args) {
         int number;
         Scanner obj1=new Scanner(System.in);
-        System.out.println("Enter any number: ");
+        System.out.println(" Enter any number: ");
         number=obj1.nextInt();
         int sum = add(number);
-        System.out.println("Sum of digits of " + number + " is " + sum);
+        System.out.println(" Sum of digits of " + number + " is " + sum);
     }
 
     static int add(int number) {

@@ -8,7 +8,7 @@ public class Switch_case {
 
         System.out.println("\n1. Area of Circle.");
         System.out.println("2. Area of Triangle.");
-        System.out.println("3. Area of Rectangle/Square.");
+        System.out.println("3. Area of Rectangle/Square");
 
         System.out.println("\nEnter Your Choice: ");
         ch=obj1.nextInt();
