@@ -1,5 +1,5 @@
 public class printing_right_triangle {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         int i, j;
         for (i=0; i<5; i++)
