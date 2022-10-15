@@ -1,14 +1,14 @@
 import java.util.*;
 
 public class Array_Extending {
-    public static void main(String[] args) throws Exception
+    public static void main(String args[]) throws Exception
     {
         int len_arr;
         System.out.println("Enter the size of Array: ");
         Scanner obj = new Scanner(System.in);
         len_arr = obj.nextInt();
 
-        int[] arr = new int[len_arr];
+        int arr[] = new int[len_arr];
 
         System.out.println("Enter "+len_arr+" Elements: ");
         for(int x=0; x<len_arr; x++) {
@@ -19,9 +19,9 @@ public class Array_Extending {
         int a;
         System.out.println("Enter the new Element: ");
         Scanner obj1 = new Scanner(System.in);
-        a = obj1.nextInt();
+        a = obj.nextInt();
 
-        int[] new_arr = new int[arr.length + 1];
+        int new_arr[] = new int[arr.length + 1];
 
         for (int i = 0; i < arr.length; i++) {
             new_arr[i] = arr[i];
