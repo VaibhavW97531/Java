@@ -1,3 +1,5 @@
+//Program to display a multiplication table.
+
 import java.util.Scanner;
 
 public class table {
@@ -7,6 +9,8 @@ public class table {
 
         System.out.println("Enter the table number: ");
         n=obj.nextInt();
+
+        System.out.println("Multiplication Table for "+n+":");
 
         while(i<=10)
         {
