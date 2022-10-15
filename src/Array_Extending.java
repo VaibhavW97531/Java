@@ -1,3 +1,5 @@
+// Program to insert element in existing array and sort and existing array.
+
 import java.util.*;
 
 public class Array_Extending {
