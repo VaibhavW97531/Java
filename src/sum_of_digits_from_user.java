@@ -1,3 +1,5 @@
+//Program to find the sum of digits of a given number.
+
 import java.util.Scanner;
 
 public class sum_of_digits_from_user {
